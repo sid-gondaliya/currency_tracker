@@ -40,7 +40,8 @@ class _LoadingState extends State<Loading> {
       }
       try {
         String url =
-            'https://free.currconv.com/api/v7/convert?q=${cc[i]}_${cc[widget.countryvalue]}&compact=ultra&apiKey=e0e8ffb8eb0a81b584c5';
+            'https://free.currconv.com/api/v7/convert?q=${cc[i]}_${cc[widget.countryvalue]}&compact=ultra&apiKey=YOUR API KEY';
+        //ADD YOUR API KEY ABOVE
         var response = await http.get(url);
         //print(response.body);
 
