@@ -1,16 +1,16 @@
-# currency_tracker
+# Currency Tracker
 
-A new Flutter project.
+A new Flutter application.
+This project i started to learn working with API Keys and http/https request.
+It uses basic math function, also http and percent_indicator plug-in.
 
-## Getting Started
+## App Preview
+![login](https://github.com/sid-gondaliya/Images/blob/main/Currency%20Tracker.gif)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+- Download Project
+- Open it on Android Studio or Visual Studio code.
+- Download Plug-in by 'flutter pub get' typing in terminal.
+- Go on this site 'https://www.currencyconverterapi.com/' and generate your API key.
+- Open loading.dart file and add your API key to url variable and you are all set.
